@@ -1,0 +1,25 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/interactive-data-globe-aag",
+	"version": "0.1.0",
+	"title": "Interactive 3D Data Globe AAG",
+	"category": "widgets",
+	"icon": "globe",
+	"description": "Displays an interactive 3D globe with data points for the world's largest cities.",
+	"example": {},
+	"attributes": {
+		"blockTitle": {
+		"type": "string",
+		"default": "The 30 Largest Cities on a Globe"
+		}
+	},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "interactive-data-globe-aag",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}
